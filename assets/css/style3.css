@@ -1,0 +1,31 @@
+.breadcrumb a {
+    text-decoration: none;
+    color: #888;
+  }
+  
+  .breadcrumb .active {
+    color: #333;
+  }
+  
+  .product-detail h3 {
+    font-family: 'Georgia', serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn-outline-secondary.active {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #eee;
+  }
+
+  @media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+  }
+  

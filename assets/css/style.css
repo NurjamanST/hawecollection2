@@ -1,0 +1,115 @@
+/* Logo Huruf Tengah */
+.h-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Navbar link spacing */
+  .nav-link {
+    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  .nav-link:hover {
+    color: #000;
+  }
+  
+  /* Carousel button custom */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 40px 40px;
+  }
+  
+  /* Category Section Title */
+  section h5 {
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: #000;
+  }
+  
+  /* Hover image sedikit membesar */
+  .img-fluid:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+  .card-body h6 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .card-body p {
+    font-size: 0.9rem;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: auto;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 50% 50%;
+  }
+
+  .footer-title {
+    font-family: 'Times New Roman', serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .footer-link:hover {
+    color: #a0845f;
+  }
+
+  #backToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    display: none;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+
+  #backToTopBtn:hover {
+    background-color: #333;
+  }
+
+  footer h5 {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+  }
+  
